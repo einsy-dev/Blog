@@ -1,6 +1,8 @@
 *,
 *::before,
 *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -20,20 +22,18 @@
 
 body {
     font-family: "Open Sans", Arial, sans-serif;
-    margin: 0;
+
 }
 
 ul,
 ol {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 /*First block*/
 
 .header {
-    height: 449px;
+    height: 450px;
     background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@ ol {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -70,7 +70,7 @@ ol {
 .logo {
     width: 179px;
     padding-left: 3px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
 }
 
@@ -104,7 +104,7 @@ ol {
 .intro {
     display: block;
     width: 700px;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 102px;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 45px;
@@ -151,8 +151,6 @@ ol {
 
 .post-tags {
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 .post-tags-item {
@@ -224,7 +222,7 @@ ol {
 }
 
 .new-posts-header {
-    margin: 0 auto;
+    margin: auto;
     padding-left: 9px;
     text-align: center;
     font-family: "Open Sans", Arial, sans-serif;
@@ -240,7 +238,6 @@ ol {
     height: 70px;
     margin-top: 22px;
     display: flex;
-    padding: 0;
 }
 
 .new-post-title {
@@ -268,7 +265,6 @@ ol {
     text-transform: uppercase;
     color: #000000;
     line-height: 18px;
-    margin-top: 0;
 }
 
 .form {
@@ -286,7 +282,6 @@ ol {
     background-color: #f4f7f6;
     border: none;
     outline: none;
-    -webkit-appearance: none;
     opacity: 0.54;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 13px;
@@ -319,7 +314,6 @@ ol {
     font-size: 13px;
     border: none;
     outline: none;
-    -webkit-appearance: none;
     background-color: #f4f7f6;
     font-family: inherit;
 }
@@ -329,7 +323,6 @@ ol {
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -397,7 +390,7 @@ ol {
 .tags-list {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+
 }
 
 .tags-list-item {
@@ -431,14 +424,12 @@ ol {
     text-transform: uppercase;
     text-align: center;
     margin-top: 7px;
-    margin-bottom: 0;
     margin-left: 5px;
 }
 
 .theme-title-list {
     display: inline-flex;
     flex-wrap: wrap;
-    padding: 0;
 }
 
 .teg-list-item {
@@ -537,7 +528,6 @@ ol {
 .messenger-link {
     display: block;
     height: 100%;
-    verical-align: center;
 }
 
 .footer-copyrights {
